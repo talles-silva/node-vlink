@@ -1,6 +1,6 @@
-# Basic Lib Node
+# Link Validator - Node.js
 
-Basic Lib Node is a Node.js tool developed in TypeScript for finding links in documents and validating them through HTTP requests. This project is designed to provide an efficient and versatile solution for checking the integrity of links in Markdown documents.
+Link Validator is a Node.js tool developed in TypeScript for finding links in documents and validating them through HTTP requests. This project is designed to provide an efficient and versatile solution for checking the integrity of links in Markdown documents.
 
 ## Getting Started
 
