@@ -48,54 +48,60 @@ Follow these steps to install and set up Basic Lib Node using npm or Yarn:
 
 Basic Lib Node provides several NPM scripts for different tasks:
 
-- **build:** Compiles the TypeScript code into JavaScript:
+- **Manual Usage:** You can manually run the build and start commands to find and validate links in a specified Markdown document.
 
-   ```bash
-   npm run build
-   ```
+   - **build:** Compiles the TypeScript code into JavaScript:
 
-   or
+     ```bash
+     npm run build
+     ```
 
-   ```bash
-   yarn build
-   ```
+     or
 
-- **start:** Runs the project to find and validate links in a specified Markdown document. Replace `arquivos/texto.md` with the path to the Markdown document you want to analyze:
+     ```bash
+     yarn build
+     ```
 
-   ```bash
-   npm start -- arquivos/texto.md
-   ```
+   - **start:** Runs the project to find and validate links in a specified Markdown document. Replace `arquivos/texto.md` with the path to the Markdown document you want to analyze:
 
-   or
+     ```bash
+     npm start 
+     ```
 
-   ```bash
-   yarn start -- arquivos/texto.md
-   ```
+     or
 
-- **cli:** A convenient script that combines building and running the project. Usage:
+     ```bash
+     yarn start 
+     ```
 
-   ```bash
-   npm run cli -- arquivos/texto.md
-   ```
+- **Automatic Usage:** For a more automated approach, you can use the `cli` script to streamline the process. It combines both the build and start steps into a single command. Usage:
 
-   or
+   - **Using npm:**
 
-   ```bash
-   yarn cli -- arquivos/texto.md
-   ```
+     ```bash
+     npm run cli
+     ```
 
-- **cli:validate:** Similar to `cli`, but also includes the validation step for links. Replace `arquivos/texto.md` with the path to the Markdown document you want to analyze:
+   - **Using Yarn:**
 
-   ```bash
-   npm run cli:validate -- arquivos/texto.md
-   ```
+     ```bash
+     yarn cli
+     ```
 
-   or
+- **Revalidation:** If you want to revalidate the links after making changes, you can use the `cli:validate` script. It performs both the build and validation steps. Replace `arquivos/texto.md` with the path to the Markdown document you want to analyze:
 
-   ```bash
-   yarn cli:validate -- arquivos/texto.md
-   ```
+   - **Using npm:**
 
+     ```bash
+     npm run cli:validate
+     ```
+
+   - **Using Yarn:**
+
+     ```bash
+     yarn cli:validate
+     ```
+     
 ### Dependencies
 
 - [chalk](https://www.npmjs.com/package/chalk): Used for styling terminal output.
