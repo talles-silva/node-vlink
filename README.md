@@ -19,8 +19,8 @@ Follow these steps to install and set up Basic Lib Node using npm or Yarn:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd basic-lib-node
+   git clone https://github.com/talles-silva/node-vlink
+   cd node-vlink
    ```
 
 2. Install project dependencies:
@@ -34,8 +34,8 @@ Follow these steps to install and set up Basic Lib Node using npm or Yarn:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd basic-lib-node
+   git clone https://github.com/talles-silva/node-vlink
+   cd node-vlink
    ```
 
 2. Install project dependencies:
