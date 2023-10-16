@@ -106,14 +106,6 @@ Basic Lib Node provides several NPM scripts for different tasks:
 
 - [typescript](https://www.npmjs.com/package/typescript): The TypeScript compiler.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions and improvements are welcome. Feel free to open issues and pull requests on the project's [GitHub repository](https://github.com/talles-silva/node-vlink).
-
 ## Acknowledgments
 
-- The Basic Lib Node project utilizes various open-source libraries and tools to enhance its functionality.
+- The Link Validator project utilizes various open-source libraries and tools to enhance its functionality.
